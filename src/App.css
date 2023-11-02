@@ -1,38 +1,157 @@
 .App {
   text-align: center;
+  
+height:700px;
 }
+.calbody{
+  height:600px;
+  border-radius: 10px;
+  padding:50px;
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.App{
   display: flex;
-  flex-direction: column;
+  margin-top: 20px;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+
+ 
+}
+.form-control{
+  height:100px;
+  text-align: right;
+  background-color: black;
   color: white;
+  margin-bottom: 20px;
+  font-size: 20px;
+}
+.clear{
+  width:190px;
+  border-radius: 50px;
+  height:70px;
+  background-color: aqua;
+  font-size: 20px;
+   font-weight: bold;
+ 
+}
+.display{
+  border-radius: 50px;
+  height:70px;
+  width:90px;
+  margin:5px;
+  font-weight: bold;
+  font-size: 20px;
+  background-color: rgb(188, 188, 188);
+}
+@media only screen and (max-width: 800px) {
+  *{
+    overflow-x: hidden;
+    overflow-y: hidden;
+
+  }
+  .App{
+    
+    background-color:black ;
+    margin-top: -50px;
+    height:900px;
+    margin-top: -90px;
+    
+  }
+ .App{
+  margin-left: -0px;
+ } 
+ .form-control{
+  height:80px;
+ 
+  
+}
+.clear{
+  width:135px;
+  border-radius: 50px;
+  height:55px;
+  
+ 
+}
+.display{
+  border-radius: 50px;
+  height:55px;
+  width:60px;
+  margin:5px;
+ 
+}
+.calbottom{
+  background-color: black;
 }
 
-.App-link {
-  color: #61dafb;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+@media (min-width: 500px) and (max-width: 1100px) {
+  .clear{
+    width:120px;
+    border-radius: 50px;
+    height:55px;
+    
+   
   }
-  to {
-    transform: rotate(360deg);
+  .display{
+    border-radius: 50px;
+    height:55px;
+    width:50px;
+    margin:5px;
+   
   }
 }
+@media (min-width: 500px) and (max-width: 1200px) {
+  .clear{
+    width:130px;
+    border-radius: 50px;
+    height:55px;
+    
+   
+  }
+  .display{
+    border-radius: 50px;
+    height:55px;
+    width:60px;
+    margin:5px;
+   
+  }
+}
+@media (min-width: 1300px) and (max-width: 800px) {
+  .clear{
+    width:100px;
+    border-radius: 50px;
+    height:55px;
+    
+   
+  }
+  .display{
+    border-radius: 50px;
+    height:55px;
+    width:40px;
+    margin:5px;
+   
+  }
+
+ 
+
+}
+
+@media (min-width: 340px) and (max-width: 940px) {
+
+
+  .clear{
+    width:125px;
+    border-radius: 50px;
+    height:55px;
+    
+   
+  }
+  .display{
+    border-radius: 50px;
+    height:55px;
+    width:55px;
+    margin:5px;
+   
+  }
+}
+
